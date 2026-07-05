@@ -167,6 +167,61 @@
 - Codex 生成短视频分镜脚本
 - Codex 组织 AI 视频生产 SOP
 
+
+### PowerShell / Windows 自动化
+
+- Codex 做 Windows PowerShell 批处理自动化
+- Codex 做文件整理与批量执行工作流
+- Codex 做桌面运维脚本生成
+
+### Blender / 3D
+
+- Codex 做 Blender MCP 自动建模
+- Codex 做 Blender 批量出图与渲染
+- Codex 做 Blender 网页展示管线
+
+### UE5.8 / 游戏开发
+
+- Codex 用 UE5.8 开发游戏原型
+- Codex 做 Unreal Engine C++ 系统开发
+- Codex 做 UE5.8 编辑器工具与 UI 开发
+
+### 社媒自动发布
+
+- Codex 自动发布抖音与小红书内容
+- Codex 自动发布视频号内容
+- Codex 做多平台社媒分发工作流
+
+### 小程序
+
+- Codex 自动做小程序原型
+- Codex 生成小程序页面与接口骨架
+- Codex 做小程序从需求到交付的流程
+
+### 客服 / 运营 / 电商
+
+- Codex 自动做客服话术与客户跟进
+- Codex 自动上下架商品
+- Codex 自动整理订单与售后流程
+
+### 外贸获客
+
+- Codex 自动做外贸获客
+- Codex 自动抓取客户线索并归类
+- Codex 自动生成首封开发信
+
+### IP 口播视频
+
+- Codex 自动做 IP 口播视频
+- Codex 生成口播文案与镜头脚本
+- Codex 做 AI 主播短视频生产流程
+
+### 大工作流
+
+- Codex 从 image2 生图到 Seedance 图生视频再发布抖音
+- Codex 做 AI 图片到短视频再到社媒发布全链路
+- Codex 做图像生成、视频生产、平台分发一体化流程
+
 ## 收录规则
 
 一个案例想进入这个仓库，至少要满足下面 3 条中的 2 条：
@@ -180,6 +235,43 @@
 - 只有平台入口，没有工作流
 - 强依赖私有环境，无法迁移
 - 名字很强，但没有实际执行路径
+
+
+### 5. PowerShell / Windows 自动化
+
+详见：[PowerShell 自动化案例](./usecases/powershell-automation.md)
+
+### 6. Blender 建模与动画
+
+详见：[Blender 建模与动画案例](./usecases/blender-pipeline.md)
+
+### 7. UE5.8 游戏开发
+
+详见：[UE5.8 游戏开发案例](./usecases/ue58-game-dev.md)
+
+### 8. 社媒自动发布
+
+详见：[社媒自动发布案例](./usecases/social-publishing.md)
+
+### 9. 小程序自动生产
+
+详见：[小程序自动生产案例](./usecases/mini-program-factory.md)
+
+### 10. 客服与运营自动化
+
+详见：[客服与运营自动化案例](./usecases/customer-service-and-ops.md)
+
+### 11. 外贸获客自动化
+
+详见：[外贸获客自动化案例](./usecases/foreign-trade-leads.md)
+
+### 12. IP 口播视频自动化
+
+详见：[IP 口播视频自动化案例](./usecases/ip-talking-head-video.md)
+
+### 13. 从生图到视频发布的大工作流
+
+详见：[从 image2 生图到视频发布的大工作流案例](./usecases/image2-to-seedance-douyin.md)
 
 ## 推荐的案例名称格式
 

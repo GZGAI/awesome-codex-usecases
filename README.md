@@ -195,12 +195,47 @@
   - 商品上下架
   - 订单与售后流程整理
 
-### 外贸获客
+### 外贸 / 跨境电商
 
 - [外贸获客自动化案例](./usecases/foreign-trade-leads.md)
   - 抓取客户线索
   - 线索去重与归类
   - 首轮开发信生成
+
+- [跨境爆款视频仿制案例](./usecases/crossborder-video-remix.md)
+  - 拆解爆款视频结构
+  - 重写脚本与分镜
+  - 生成翻拍方案
+
+- [外贸数字人口播视频案例](./usecases/digital-human-sales-video.md)
+  - 外贸产品口播脚本
+  - 数字人镜头建议
+  - 销售型 AI 主播视频任务单
+
+- [字幕翻译与语音匹配案例](./usecases/subtitle-translation-voice-matching.md)
+  - 多语种字幕翻译
+  - 配音稿适配
+  - 时长与节奏匹配
+
+- [跨境内容矩阵案例](./usecases/crossborder-content-matrix.md)
+  - 多国家内容规划
+  - 多平台发布矩阵
+  - 多语种脚本组织
+
+- [外贸开发信案例](./usecases/trade-outreach-email.md)
+  - 首封开发信生成
+  - 跟进邮件改写
+  - 多国家版本外联文案
+
+- [多语种产品文案案例](./usecases/multilingual-product-copy.md)
+  - 产品卖点翻译
+  - 平台版本化文案
+  - 国家市场差异化表达
+
+- [海外平台自动发布案例](./usecases/global-platform-publishing.md)
+  - 海外平台标题与描述适配
+  - 多语言版本发布
+  - 链接与结果回填
 
 ### IP 内容生产
 
@@ -220,12 +255,19 @@
   - 自动发布到抖音
   - 形成完整增长链路
 
+- [外贸与跨境电商组合型大工作流案例](./usecases/crossborder-growth-workflow.md)
+  - 外贸获客
+  - 爆款视频仿制
+  - 数字人口播视频
+  - 字幕翻译与语音匹配
+  - 多平台分发
+
 后续还会继续补的组合型案例：
 
 - 从选题到抖音 / 小红书 / 视频号多平台发布
 - 从 Blender 建模到短视频成片发布
 - 从 UE5.8 游戏原型到试玩视频与宣传页面
-- 从外贸获客到客户跟进到 CRM 入库
+- 从外贸获客到数字人视频、翻译和跨平台分发
 - 从商品生成到上架到社媒分发到客服接待
 
 ## 正式案例名称建议
@@ -252,6 +294,9 @@
 - Codex 自动生成视频字幕与配音脚本
 - Codex 自动发布视频号内容
 - Codex 自动做外贸获客
+- Codex 自动写外贸开发信
+- Codex 自动生成多语种产品文案
+- Codex 自动发布海外平台内容
 - Codex 自动做 IP 口播视频
 
 ### 大工作流名称示例
@@ -259,6 +304,7 @@
 - Codex 从 gpt-image-2 生图到 Seedance 2 图生视频再到 HyperFrames 包装并发布抖音
 - Codex 做 AI 图片到短视频再到社媒发布全链路
 - Codex 做商品生成、上架、分发、客服承接一体化流程
+- Codex 自动做外贸获客到数字人口播视频再到多平台分发
 
 ## 收录规则
 

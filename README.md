@@ -19,13 +19,10 @@
 ## 目录
 
 - [判断标准：能不能转成 Codex Use Case](#判断标准能不能转成-codex-use-case)
-- [当前收录的案例方向](#当前收录的案例方向)
-- [第一批正式案例名称](#第一批正式案例名称)
+- [原子工作流](#原子工作流)
+- [组合型大工作流](#组合型大工作流)
+- [正式案例名称建议](#正式案例名称建议)
 - [案例模板](./templates/usecase-template.md)
-- [浏览器自动化案例](./usecases/browser-automation.md)
-- [PDF 处理案例](./usecases/pdf-processing.md)
-- [前端设计案例](./usecases/frontend-design.md)
-- [视频工作流案例](./usecases/video-workflow.md)
 
 ## 这个仓库整理什么
 
@@ -71,156 +68,144 @@
 - skill 只是一个很薄的壳，没有稳定 workflow
 - 只能在某个特定宿主环境里运行，脱离原平台就没有意义
 
-## 当前收录的案例方向
+## 原子工作流
 
-### 1. 浏览器自动化
+这些案例是更细颗粒度、可单独复用的工作流单元，后续的大工作流都应该由这些模块组合而成。
 
-参考技能方向：
+### 浏览器与网页
 
-- `sickn33/antigravity-awesome-skills@browser-automation`
-- `claude-office-skills/skills@browser-automation`
+- [浏览器自动化案例](./usecases/browser-automation.md)
+  - 网页自动填写表单
+  - 后台系统数据录入
+  - 页面抓取与结果汇总
+  - 浏览器回归测试
 
-在 Codex 中可转成：
+### 文档处理
 
-- 网页自动填写表单
-- 后台系统数据录入
-- 页面抓取与结果汇总
-- 浏览器回归测试
+- [PDF 处理案例](./usecases/pdf-processing.md)
+  - PDF 内容提取
+  - PDF 转结构化摘要
+  - 合同 / 报告 / 论文快速审阅
+  - PDF 转 DOCX 工作流设计
 
-详见：[浏览器自动化案例](./usecases/browser-automation.md)
+### 前端与页面生成
 
-### 2. PDF / 文档处理
+- [前端设计案例](./usecases/frontend-design.md)
+  - 落地页生成
+  - SaaS 后台页面生成
+  - UI 重构建议
+  - 前端视觉优化与组件落地
 
-参考技能方向：
+### 视频基础工作流
 
-- `openai/skills@pdf`
-- `claude-office-skills/skills@pdf-extraction`
-- `anthropics/knowledge-work-plugins@view-pdf`
+- [视频工作流案例](./usecases/video-workflow.md)
+  - 视频脚本与分镜生成
+  - 图生视频工作流设计
+  - 视频编辑提示词整理
+  - 多平台短视频生产 SOP
 
-在 Codex 中可转成：
+### Windows / PowerShell
 
-- PDF 内容提取
-- PDF 转结构化摘要
-- 合同 / 报告 / 论文快速审阅
-- PDF 转 DOCX 工作流设计
-
-详见：[PDF 处理案例](./usecases/pdf-processing.md)
-
-### 3. 前端设计与页面生成
-
-参考技能方向：
-
-- `anthropics/skills@frontend-design`
-- `leonxlnx/taste-skill@design-taste-frontend`
-
-在 Codex 中可转成：
-
-- 落地页生成
-- SaaS 后台页面生成
-- UI 重构建议
-- 前端视觉优化与组件落地
-
-详见：[前端设计案例](./usecases/frontend-design.md)
-
-### 4. 视频工作流
-
-参考技能方向：
-
-- `agentspace-so/runcomfy-agent-skills@video-edit`
-- `agentspace-so/runcomfy-agent-skills@image-to-video`
-- `agentspace-so/runcomfy-agent-skills@ai-video-generation`
-
-在 Codex 中可转成：
-
-- 视频脚本与分镜生成
-- 图生视频工作流设计
-- 视频编辑提示词整理
-- 多平台短视频生产 SOP
-
-详见：[视频工作流案例](./usecases/video-workflow.md)
-
-## 第一批正式案例名称
-
-下面这些名称优先采用“任务导向”写法，适合直接作为 README、文章标题或子目录名：
-
-### 浏览器自动化
-
-- Codex 做网页自动化回归测试
-- Codex 做后台系统表单填写
-- Codex 做网页抓取与结果汇总
-
-### 文档 / PDF
-
-- Codex 做 PDF 合同审阅与摘要
-- Codex 提取 PDF 结构化要点
-- Codex 设计 PDF 转 DOCX 工作流
-
-### 前端 / 设计
-
-- Codex 生成 SaaS 后台前端页面
-- Codex 重构产品官网视觉层
-- Codex 生成 React 业务页面骨架
-
-### 视频工作流
-
-- Codex 设计图生视频工作流
-- Codex 生成短视频分镜脚本
-- Codex 组织 AI 视频生产 SOP
-
-
-### PowerShell / Windows 自动化
-
-- Codex 做 Windows PowerShell 批处理自动化
-- Codex 做文件整理与批量执行工作流
-- Codex 做桌面运维脚本生成
+- [PowerShell 自动化案例](./usecases/powershell-automation.md)
+  - Windows 批处理脚本生成
+  - 文件整理与批量执行
+  - 桌面运维脚本自动化
 
 ### Blender / 3D
 
-- Codex 做 Blender MCP 自动建模
-- Codex 做 Blender 批量出图与渲染
-- Codex 做 Blender 网页展示管线
+- [Blender 建模与动画案例](./usecases/blender-pipeline.md)
+  - Blender MCP 自动建模
+  - 批量出图与渲染
+  - Blender 网页展示管线
 
 ### UE5.8 / 游戏开发
 
-- Codex 用 UE5.8 开发游戏原型
-- Codex 做 Unreal Engine C++ 系统开发
-- Codex 做 UE5.8 编辑器工具与 UI 开发
+- [UE5.8 游戏开发案例](./usecases/ue58-game-dev.md)
+  - UE C++ 原型开发
+  - 编辑器工具开发
+  - UI / UMG / Slate 工作流
 
-### 社媒自动发布
+### 社媒分发
 
-- Codex 自动发布抖音与小红书内容
-- Codex 自动发布视频号内容
-- Codex 做多平台社媒分发工作流
+- [社媒自动发布案例](./usecases/social-publishing.md)
+  - 自动发布抖音与小红书
+  - 自动发布视频号
+  - 多平台社媒分发工作流
 
-### 小程序
+### 小程序生产
 
-- Codex 自动做小程序原型
-- Codex 生成小程序页面与接口骨架
-- Codex 做小程序从需求到交付的流程
+- [小程序自动生产案例](./usecases/mini-program-factory.md)
+  - 小程序原型生成
+  - 页面与接口骨架生成
+  - 从需求到交付流程整理
 
 ### 客服 / 运营 / 电商
 
-- Codex 自动做客服话术与客户跟进
-- Codex 自动上下架商品
-- Codex 自动整理订单与售后流程
+- [客服与运营自动化案例](./usecases/customer-service-and-ops.md)
+  - 客服话术与客户跟进
+  - 商品上下架
+  - 订单与售后流程整理
 
 ### 外贸获客
 
+- [外贸获客自动化案例](./usecases/foreign-trade-leads.md)
+  - 抓取客户线索
+  - 线索去重与归类
+  - 首轮开发信生成
+
+### IP 内容生产
+
+- [IP 口播视频自动化案例](./usecases/ip-talking-head-video.md)
+  - 口播文案生成
+  - 镜头脚本生成
+  - AI 主播短视频生产流程
+
+## 组合型大工作流
+
+这些案例不再强调单一动作，而是强调多个原子工作流如何串起来。
+
+- [从 image2 生图到视频发布的大工作流案例](./usecases/image2-to-seedance-douyin.md)
+  - `gpt-image-2` 生图
+  - 图生视频工作流
+  - 封面、标题、简介生成
+  - 自动发布到抖音
+  - 形成完整增长链路
+
+后续还会继续补的组合型案例：
+
+- 从选题到抖音 / 小红书 / 视频号多平台发布
+- 从 Blender 建模到短视频成片发布
+- 从 UE5.8 游戏原型到试玩视频与宣传页面
+- 从外贸获客到客户跟进到 CRM 入库
+- 从商品生成到上架到社媒分发到客服接待
+
+## 正式案例名称建议
+
+建议统一写成：
+
+- `Codex + 场景`
+- `Codex 做什么`
+- `用 Codex 完成什么任务`
+
+例如：
+
+### 原子工作流名称示例
+
+- Codex 做网页自动化回归测试
+- Codex 做 PDF 合同审阅与摘要
+- Codex 生成 SaaS 后台前端页面
+- Codex 做 Windows PowerShell 批处理自动化
+- Codex 做 Blender MCP 自动建模
+- Codex 用 UE5.8 开发游戏原型
+- Codex 自动发布视频号内容
 - Codex 自动做外贸获客
-- Codex 自动抓取客户线索并归类
-- Codex 自动生成首封开发信
-
-### IP 口播视频
-
 - Codex 自动做 IP 口播视频
-- Codex 生成口播文案与镜头脚本
-- Codex 做 AI 主播短视频生产流程
 
-### 大工作流
+### 大工作流名称示例
 
-- Codex 从 image2 生图到 Seedance 图生视频再发布抖音
+- Codex 从 image2 生图到图生视频再发布抖音
 - Codex 做 AI 图片到短视频再到社媒发布全链路
-- Codex 做图像生成、视频生产、平台分发一体化流程
+- Codex 做商品生成、上架、分发、客服承接一体化流程
 
 ## 收录规则
 
@@ -235,58 +220,6 @@
 - 只有平台入口，没有工作流
 - 强依赖私有环境，无法迁移
 - 名字很强，但没有实际执行路径
-
-
-### 5. PowerShell / Windows 自动化
-
-详见：[PowerShell 自动化案例](./usecases/powershell-automation.md)
-
-### 6. Blender 建模与动画
-
-详见：[Blender 建模与动画案例](./usecases/blender-pipeline.md)
-
-### 7. UE5.8 游戏开发
-
-详见：[UE5.8 游戏开发案例](./usecases/ue58-game-dev.md)
-
-### 8. 社媒自动发布
-
-详见：[社媒自动发布案例](./usecases/social-publishing.md)
-
-### 9. 小程序自动生产
-
-详见：[小程序自动生产案例](./usecases/mini-program-factory.md)
-
-### 10. 客服与运营自动化
-
-详见：[客服与运营自动化案例](./usecases/customer-service-and-ops.md)
-
-### 11. 外贸获客自动化
-
-详见：[外贸获客自动化案例](./usecases/foreign-trade-leads.md)
-
-### 12. IP 口播视频自动化
-
-详见：[IP 口播视频自动化案例](./usecases/ip-talking-head-video.md)
-
-### 13. 从生图到视频发布的大工作流
-
-详见：[从 image2 生图到视频发布的大工作流案例](./usecases/image2-to-seedance-douyin.md)
-
-## 推荐的案例名称格式
-
-建议统一写成：
-
-- `Codex + 场景`
-- `Codex 做什么`
-- `用 Codex 完成什么任务`
-
-例如：
-
-- Codex 做网页自动化回归测试
-- Codex 做 PDF 合同审阅与摘要
-- Codex 生成 SaaS 后台前端页面
-- Codex 设计图生视频工作流
 
 ## 后续可以继续扩展的方向
 
@@ -307,11 +240,3 @@
 - 需要哪些前置条件
 - 任务应该怎么拆
 - 最终案例该怎么命名、怎么复用
-
-后面会继续补：
-
-- GitHub 工作流案例
-- DevOps / 发布案例
-- 飞书 / Lark 自动化案例
-- 金融 / 研究分析案例
-- MCP 混合工作流案例

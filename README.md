@@ -103,25 +103,55 @@
   - 视频编辑提示词整理
   - 多平台短视频生产 SOP
 
+- [内容选题案例](./usecases/content-topic-selection.md)
+  - 短视频选题
+  - 账号内容方向
+  - IP 选题规划
+
 - [gpt-image-2 生图案例](./usecases/image2-generation.md)
   - 主视觉图生成
   - 封面图生成
   - 商品宣传图生成
+
+- [封面图生成案例](./usecases/cover-image-generation.md)
+  - 抖音封面图
+  - 小红书封面图
+  - 视频号封面图
 
 - [Seedance 2 图生视频案例](./usecases/seedance-image-to-video.md)
   - 图生视频参数设计
   - 镜头节奏与运动说明
   - 图像到视频任务单输出
 
+- [字幕与配音案例](./usecases/subtitle-and-voiceover.md)
+  - 字幕生成
+  - 旁白脚本
+  - 配音节奏结构
+
 - [HyperFrames 视频包装案例](./usecases/hyperframes-packaging.md)
   - 转场设计
   - 配音与旁白包装
   - 片头片尾与成片包装
 
+- [标题钩子文案案例](./usecases/video-title-hook-writing.md)
+  - 抖音标题钩子
+  - 小红书标题
+  - 视频号标题与简介
+
 - [抖音自动发布案例](./usecases/douyin-auto-publish.md)
   - 上传视频
   - 填写标题、简介、标签
   - 自动发布与回填链接
+
+- [小红书自动发布案例](./usecases/xiaohongshu-auto-publish.md)
+  - 自动上传图文或视频
+  - 自动填写标题、正文、标签
+  - 自动发布与记录结果
+
+- [视频号自动发布案例](./usecases/wechat-channel-auto-publish.md)
+  - 自动上传视频
+  - 自动填写标题与描述
+  - 自动发布与回填结果
 
 ### Windows / PowerShell
 
@@ -216,6 +246,10 @@
 - Codex 做 Windows PowerShell 批处理自动化
 - Codex 做 Blender MCP 自动建模
 - Codex 用 UE5.8 开发游戏原型
+- Codex 自动做短视频选题
+- Codex 自动生成抖音封面图
+- Codex 自动生成小红书爆款标题
+- Codex 自动生成视频字幕与配音脚本
 - Codex 自动发布视频号内容
 - Codex 自动做外贸获客
 - Codex 自动做 IP 口播视频

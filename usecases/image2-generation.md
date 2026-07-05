@@ -1,10 +1,14 @@
-# image2 生图案例
+# gpt-image-2 生图案例
 
 ## 案例名称
 
 - Codex 用 gpt-image-2 生成主视觉图
-- Codex 自动生成短视频封面图
-- Codex 自动生成商品宣传主图
+- Codex 用 gpt-image-2 生成短视频封面图
+- Codex 用 gpt-image-2 生成商品宣传主图
+
+## 对应能力参考
+
+- OpenAI `gpt-image-2`
 
 ## 是否适合转换为 Codex 用例
 

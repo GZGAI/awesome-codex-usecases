@@ -100,9 +100,28 @@
 
 - [视频工作流案例](./usecases/video-workflow.md)
   - 视频脚本与分镜生成
-  - 图生视频工作流设计
   - 视频编辑提示词整理
   - 多平台短视频生产 SOP
+
+- [gpt-image-2 生图案例](./usecases/image2-generation.md)
+  - 主视觉图生成
+  - 封面图生成
+  - 商品宣传图生成
+
+- [Seedance 2 图生视频案例](./usecases/seedance-image-to-video.md)
+  - 图生视频参数设计
+  - 镜头节奏与运动说明
+  - 图像到视频任务单输出
+
+- [HyperFrames 视频包装案例](./usecases/hyperframes-packaging.md)
+  - 转场设计
+  - 配音与旁白包装
+  - 片头片尾与成片包装
+
+- [抖音自动发布案例](./usecases/douyin-auto-publish.md)
+  - 上传视频
+  - 填写标题、简介、标签
+  - 自动发布与回填链接
 
 ### Windows / PowerShell
 
@@ -164,10 +183,10 @@
 
 这些案例不再强调单一动作，而是强调多个原子工作流如何串起来。
 
-- [从 image2 生图到视频发布的大工作流案例](./usecases/image2-to-seedance-douyin.md)
+- [从生图到发布抖音的组合型大工作流案例](./usecases/image2-to-seedance-douyin.md)
   - `gpt-image-2` 生图
-  - 图生视频工作流
-  - 封面、标题、简介生成
+  - `Seedance 2` 图生视频
+  - `HyperFrames` 转场、配音、视频包装
   - 自动发布到抖音
   - 形成完整增长链路
 
@@ -203,7 +222,7 @@
 
 ### 大工作流名称示例
 
-- Codex 从 image2 生图到图生视频再发布抖音
+- Codex 从 gpt-image-2 生图到 Seedance 2 图生视频再到 HyperFrames 包装并发布抖音
 - Codex 做 AI 图片到短视频再到社媒发布全链路
 - Codex 做商品生成、上架、分发、客服承接一体化流程
 
